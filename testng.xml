@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestingBaba_Suit">
+<parameter name="env" value="stagingurl">
+</parameter>
+  <test name="Test" enabled="false">
+    <classes>
+      <class name="testingbaba_test.Logintest"/>
+    </classes>
+  </test>
+  
+  <test name="CheckBox_Test" enabled="false" >
+  <classes> 
+   <class name="testingbaba_test.CheckBox_Test"/>
+  </classes>
+  </test>
+  
+  <test name="Button_Test" enabled="false">
+  <classes> 
+  <class name="testingbaba_test.Button_Test"/>
+  </classes>
+  </test>
+  
+  <test name="TestBox_Test" enabled="false">
+  <classes> 
+  <class name="testingbaba_test.TestBox_Test"/>
+  </classes>
+  </test>
+  
+  <test name="WebTable_Test" enabled="false">
+  <classes> 
+   <class name="testingbaba_test.WebTable_Test"/>
+  </classes>
+  </test>
+  
+  <test name="FileUpload_Test" enabled="true">
+  <classes> 
+   <class name="testingbaba_test.FileUpload_Test"/>
+  </classes>
+  </test>
+  
+  <test name="SelectMenu_Test" enabled="false">
+  <classes> 
+   <class name="testingbaba_test.SelectMenu_Test"/>
+  </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- TestingBaba_Suit -->

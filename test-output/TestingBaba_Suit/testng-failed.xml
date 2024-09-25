@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestingBaba_Suit]" guice-stage="DEVELOPMENT">
+  <parameter name="env" value="stagingurl"/>
+  <test thread-count="5" name="SelectMenu_Test(failed)">
+    <classes>
+      <class name="testingbaba_test.SelectMenu_Test">
+        <methods>
+          <include name="ResultAnalysis"/>
+          <include name="clickonselectwidget"/>
+          <include name="selectold_menu"/>
+          <include name="clickonselectmenu"/>
+          <include name="select_multiple"/>
+          <include name="selectdropdown"/>
+          <include name="getlaunchurl_TestingBaba"/>
+          <include name="select_one"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- testingbaba_test.SelectMenu_Test -->
+    </classes>
+  </test> <!-- SelectMenu_Test(failed) -->
+</suite> <!-- Failed suite [TestingBaba_Suit] -->
